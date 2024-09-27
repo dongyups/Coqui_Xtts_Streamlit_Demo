@@ -1,0 +1,6 @@
+python==3.10.14
+streamlit==1.38.0
+tts==0.22.0
+ffmpeg==6.1.1
+pydub==0.25.1
+ipykernel==6.29.5
