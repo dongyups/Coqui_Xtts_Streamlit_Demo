@@ -8,8 +8,9 @@ conda create -n coqui python=3.10
 conda activate coqui
 
 # according to requirements.txt
-pip install streamlit==1.38.0 tts==0.22.0 pydub==0.25.1 ipykernel==6.29.5
+pip install TTS
 conda install ffmpeg==6.1.1
+pip install streamlit==1.38.0 pydub==0.25.1 ipykernel==6.29.5
 ```
 
 ```python
