@@ -18,8 +18,8 @@ pip install streamlit==1.38.0 pydub==0.25.1 ipykernel==6.29.5
 from TTS.api import TTS
 TTS("xtts_v2.0.2", gpu=False)
 
-# move it to your working directory
-!mv {...}/tts_models--multilingual--multi-dataset--xtts_v2.0.2/* {your_directory}/tts_models--multilingual--multi-dataset--xtts_v2.0.2/
+# move it from the default download folder to your working directory
+!mv [DEFAULT_DIR]/tts_models--multilingual--multi-dataset--xtts_v2.0.2/* [YOUR_WORKING_DIR]/tts_models--multilingual--multi-dataset--xtts_v2.0.2/
 ```
 
 Run ```streamlit run demo.py```
